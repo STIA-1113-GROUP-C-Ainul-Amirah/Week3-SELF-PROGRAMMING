@@ -1,0 +1,28 @@
+package selfProgramming3;
+
+import java.util.Scanner;
+
+public class Boolean {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int number1;
+		int number2;
+		
+		boolean averagenumber1 = true;
+		boolean averagenumber2 = true;
+		
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.println("Enter an integer : ");
+		number1 = scan.nextInt();
+		
+		System.out.println("Enter double value : ");
+		number2 = scan.nextInt();
+		
+		double average = (number2 + number1)/2;//formula average
+		
+	}
+
+}
