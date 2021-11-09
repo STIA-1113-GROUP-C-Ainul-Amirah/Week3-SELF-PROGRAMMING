@@ -23,6 +23,12 @@ public class Boolean {
 		
 		double average = (number2 + number1)/2;//formula average
 		
+		System.out.println("A Integer : " + number1);
+		System.out.println("The double value : " + number2);
+		System.out.println("The average of number2 : " + average);
+		
+		System.out.println(number2 < number1);
+		System.out.println(number1 == number1);
 	}
 
 }
